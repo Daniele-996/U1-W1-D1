@@ -1,0 +1,20 @@
+h1{
+    background-color: aquamarine;
+    flex-direction: row
+}
+#titolo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img{
+    display: inline-block;
+}
+table,th,td{
+    border: 1px solid black ;
+    background: linear-gradient(rgb(244, 142, 142),rgb(107, 240, 229) );
+}
+a {
+    display: block;
+    margin-bottom: 1em;
+}
