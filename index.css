@@ -1,20 +1,30 @@
-h1{
-    background-color: aquamarine;
-    flex-direction: row
+body {
+  background: linear-gradient(rgb(240, 110, 110), rgb(211, 173, 3));
+  color: rgb(0, 0, 0);
 }
-#titolo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+
+h1 {
+  background: linear-gradient(rgb(240, 110, 110), rgb(255, 255, 255));
+  flex-direction: row;
+  color: #000;
 }
-img{
-    display: inline-block;
+#titolo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-table,th,td{
-    border: 1px solid black ;
-    background: linear-gradient(rgb(244, 142, 142),rgb(107, 240, 229) );
+img {
+  display: inline-block;
+  border-radius: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  background: linear-gradient(rgb(240, 110, 110), rgb(211, 173, 3));
+  color: white;
 }
 a {
-    display: block;
-    margin-bottom: 1em;
+  display: block;
+  margin-bottom: 1em;
 }
